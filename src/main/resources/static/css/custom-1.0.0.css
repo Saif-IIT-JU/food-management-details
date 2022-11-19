@@ -1,0 +1,178 @@
+.scrollableArea {
+    width: 890px;
+    height: 485px;
+    overflow-y: scroll;
+}
+
+.scrollableArea::-webkit-scrollbar {
+    display: none;
+}
+
+.scrollableArea {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+.scrollableMenu {
+    width: 290px;
+    height: 600px;
+    padding-bottom: -90px;
+    overflow-y: scroll;
+}
+
+.scrollableMenu::-webkit-scrollbar {
+    display: none;
+}
+
+.scrollableMenu {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+.map-responsive {
+    overflow: hidden;
+    padding-bottom: 30%;
+    position: relative;
+    height: 0;
+}
+
+.map-responsive iframe {
+    left: 0;
+    top: 0;
+    height: 90%;
+    width: 100%;
+    position: absolute;
+}
+
+.wrapper {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+.bottom-one {
+    margin-bottom: 1cm;
+}
+
+.custom-style-one {
+    padding-top: 300px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 261px;
+    text-align: center;
+}
+
+.custom-style-two {
+    padding: 250px;
+    text-align: center;
+}
+
+.custom-style-three {
+    padding-top: 120px;
+    padding-bottom: 7px;
+}
+
+.custom-style-four {
+    width: 500px;
+}
+
+.custom-style-five {
+    padding: 140px;
+    width: 100%;
+    height: 100%;
+}
+
+.custom-style-six {
+    margin-left: 180px;
+    margin-right: 180px;
+}
+
+.custom-style-seven {
+    text-align: center;
+}
+
+.custom-style-eight {
+    padding-top: 120px;;
+}
+
+.custom-style-nine {
+    width: 300px;
+}
+
+.custom-style-ten {
+    padding-top: 80px;
+    padding-left: 10px;
+    text-align: center;
+}
+
+.custom-style-eleven {
+    margin-left: 100px;
+    margin-right: 180px;
+}
+
+.custom-style-twelve {
+    padding-top: 80px;
+    padding-left: 10px;
+    text-align: center;
+}
+
+.custom-style-thirteen {
+    padding-top: 80px;
+    padding-left: 50px;
+    text-align: center;
+}
+
+.top-one {
+    margin-bottom: 1cm;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.add-button {
+    color: black;
+    border: none;
+    cursor: pointer;
+    width: 100px;
+}
+
+.form-popup {
+    display: none;
+    position: fixed;
+    bottom: 30%;
+    right: 40%;
+    z-index: 9;
+}
+
+.form-container {
+    max-width: 300px;
+    padding: 10px;
+    background-color: darkgrey;
+}
+
+.form-container input[type=text] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    border: none;
+    background: #f1f1f1;
+}
+
+.form-container input[type=text]:focus, .form-container input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+}
+
+.form-container .btn {
+    background-color: #04AA6D;
+    color: white;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.8;
+}
